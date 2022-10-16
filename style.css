@@ -92,6 +92,7 @@ body {
 .profile-left-column{
     width: 40%;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .profile-photo{
@@ -162,4 +163,120 @@ body {
 
 .profile-right-column{
     width: 60%;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.profile-right-column h2{
+    width: 90%;
+    background-color:#c4c4c4;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.profile-info{
+    width: 90%;
+    background-color:#c4c4c4;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid black;
+}
+
+.profile-info p{
+    margin-left: 2%;
+    margin-bottom: 10px;
+}
+
+.profile-info a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.profile-photos{
+    background-color:#c4c4c4;
+    border: 1px solid black;
+    margin-top: 5px;
+    width: 90%;
+}
+
+.photos-header{
+    background-color: white;
+    border-bottom: 1px solid black;
+    padding-left: 1%;
+}
+
+.photos-panel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 5px;
+}
+
+.photo{
+    width: 140px;
+    height: 140px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.profile-posts{
+    background-color:#c4c4c4;
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 90%;
+    padding-bottom: 50px;
+}
+
+.posts-header{
+    background-color: white;
+    border-bottom: 1px solid black;
+    padding-left: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.posts-header a{
+    display: block;
+    background-color: #c4c4c4;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0.5%;
+    text-decoration: none;
+    color: black;
+}
+
+.post{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+}
+
+.post-photo{
+    width: 20%;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    align-self: flex-start;  
+}
+
+.post-right{
+    width: 80%;
+    padding-left: 1%;
+}
+
+.post-right h3{
+    font-weight: normal;
+}
+
+.post-right p{
+    border: 1px solid black;
+    margin-top: 5px;
+    min-height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
